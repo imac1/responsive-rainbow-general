@@ -1,0 +1,22 @@
+body {
+    background-color: #000;
+}
+
+.hint {
+    font-family: sans-serif;
+    font-weight: 100;
+
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    left: 20px;
+
+    display: flex;
+
+    height: 100px;
+    padding: 4em;
+
+    background-color: #fff8;
+
+    align-items: center;
+}
