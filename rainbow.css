@@ -1,6 +1,6 @@
 body {
 	background-color: #000;
-    transition: all, 1s;
+    transition: all, 1s, ease-out;
 }
 
 .hint {
@@ -57,5 +57,16 @@ body {
 @media only screen and (min-width: 900px) {
 	body {
 		background-color: #8e24aa;
+	}
+}
+@media only screen and (min-height: 550px) {
+	.hint {
+		top: 50%;
+	}
+}
+
+@media only screen and (min-height: 650px) {
+	.hint {
+		top: 100%;
 	}
 }
